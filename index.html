@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aviator Predictor Pro v14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PASSWORD PAGE -->
+<div id="passwordPage" class="password-page">
+    <h2>Enter Password to Access Predictor</h2>
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="errorMsg" class="error"></p>
+</div>
+
+<!-- MAIN APP -->
+<div id="app" class="hidden">
+    <div class="header">
+        AVIATOR PREDICTOR PRO v14
+    </div>
+
+    <div class="logo-box">
+        ✈️
+    </div>
+
+    <div class="circle" id="statusCircle">
+        Connected
+    </div>
+
+    <button onclick="getPrediction()">GET PREDICTION</button>
+
+    <div class="telegram">
+        Connect HMA VPN
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
